@@ -1,5 +1,7 @@
 ﻿// Расчет суммы 2х чисел
 Console.WriteLine("Введите первое целое число ");
-int numberA = 5;
-int numberB = 6;
+int numberA = new Random().Next(1, 11);
+Console.WriteLine(numberA);
+int numberB = new Random().Next(1, 11);
+Console.WriteLine(numberB);
 Console.WriteLine(numberA + numberB);
